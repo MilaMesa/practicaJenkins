@@ -6,7 +6,6 @@ public class Calculadora {
     private Suma suma = new Suma();
     private Resta resta = new Resta();
     private Multiplicacion multiplicacion = new Multiplicacion();
-    private Division division = new Division();
 
 
     public void setA(int i) {
@@ -28,9 +27,5 @@ public class Calculadora {
 
     public int multiplicar() {
         return multiplicacion.multplicar(a,b);
-    }
-
-    public double dividir() {
-        return division.dividir(a,b);
     }
 }

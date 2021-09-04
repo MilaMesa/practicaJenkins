@@ -15,11 +15,9 @@ public class JenkinsApplication {
         int sumado = calculadora.sumar();
         int restado = calculadora.restar();
         int multiplicado = calculadora.multiplicar();
-        double dividido = calculadora.dividir();
         System.out.println(sumado);
         System.out.println(restado);
         System.out.println(multiplicado);
-        System.out.println(dividido);
     }
 
 }
