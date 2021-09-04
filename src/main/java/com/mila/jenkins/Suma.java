@@ -1,6 +1,6 @@
 package com.mila.jenkins;
 
-public class Cal {
+public class Suma {
 
     public int sum(int a, int b) {
         return a+b;
